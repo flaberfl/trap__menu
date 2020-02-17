@@ -1,4 +1,7 @@
-<svg width="230" height="140">
-    <rect x="5" y="5" width="220" height="130"
-          fill="skyblue" stroke="steelblue" stroke-width="5" />
+<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="1299px" height="111px">
+<path fill-rule="evenodd"  fill="rgb(215, 181, 109)"
+ d="M102.000,-0.000 L1198.000,-0.000 L1299.010,111.000 L0.667,111.000 L102.000,-0.000 Z"/>
 </svg>
