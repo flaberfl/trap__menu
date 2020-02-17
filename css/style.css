@@ -7,6 +7,7 @@ body {
     font-size: 26px;
     font: 13px/1.4 Arial, sans-serif;
     background: #fffbdb;
+    background-image: url('../img/trap.svg');
   }
  
 a:hover {
@@ -33,13 +34,18 @@ p {
     list-style: none;
 
   }
-.triangle {
+/* .triangle {
       border-bottom: 50px solid #d7b56d;
       border-left: 41px solid transparent;
       border-right: 41px solid transparent;
       height: 0;
       width: 181px;
-      position: relative;
+      position: relative; */
+
+.triangle {
+  background-image: url(../img/trap.svg);
+  width: 90px;
+	height: 150px;
 }
 .triangle span {
     display: block;
@@ -61,6 +67,7 @@ p {
     margin-right: -20%;
     bottom: -42px;
     letter-spacing: -0.3px;
+    
 }
 
 
@@ -74,6 +81,7 @@ p {
     border-bottom: 25px solid #d7b56d;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
+    background-image: url('../img/trap.svg');
   } 
 
 .tabs__content {
