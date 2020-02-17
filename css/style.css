@@ -2,37 +2,33 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
 body {
     font-size: 26px;
     font: 13px/1.4 Arial, sans-serif;
     background: #fffbdb;
-  }
+}
  
 a:hover {
     text-decoration: none;
-  }
-/* p {
-    padding: 7px 0;
-  } */
+}
 
 .container {
     max-width: 1820px;
     margin: 0 auto;
-  }
+}
 .tabs {
     margin-top: 30px;
-  }
+}
 .tabs__inner {
     max-width: 1740px;
     margin: 0 auto;
-  }
+}
 .tabs__caption {
     display: flex;
     justify-content: center;
     list-style: none;
-    /* position: relative; */
-  }
+}
 .triangle {
       border-bottom: 50px solid #d7b56d;
       border-left: 41px solid transparent;
@@ -41,29 +37,18 @@ a:hover {
       width: 181px;
       position: relative;
 }
-/* .triangle {
-  z-index: 100;
 
-  background-image: url(../img/trap.svg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 263px;
-	height: 54px;
-} */
 .triangle span {
     z-index: 100;
     display: block;
     font-size: 15px;
     font-weight: 700;
-    /* text-transform: uppercase; */
-    /* padding: 9px 0 0 0; */
     line-height: 17px;
     position: absolute;
     left: -18%;
-    /* top: 45%; */
     margin-right: -22%;
     bottom: -41px;
-    }
+}
 
 .tabs__caption li:nth-child(4) span {
     font-size: 12px;
@@ -71,31 +56,20 @@ a:hover {
     margin-right: -20%;
     bottom: -42px;
     letter-spacing: -0.3px;
-    
 }
 
 
 .tabs__caption li {
     text-align: center;
     cursor: pointer;
-    }
+}
   
 .tabs__caption .active {
     display: block;
-    /* margin-top: 50px; */
-    /* border-bottom: 25px solid #d7b56d;
-    border-left: 20px solid transparent;
-    border-right: 20px solid transparent; */
-    /* background-image: url(../img/test.svg);
-    background-repeat: no-repeat;
-    background-position: 20px 20px;
-    width: 263px;
-    height: 54px; */
     margin: 3px -20px;
     border-bottom: 27px solid #d7b56d;
     border-left: 22px solid transparent;
     border-right: 22px solid transparent;
-    /* width: 181px; */
   } 
 
 .tabs__content {
@@ -107,12 +81,3 @@ a:hover {
 .tabs__content.active {
     display: block;
   }
-
-/* @media screen and (max-width: 650px) {
-    .tabs__caption li {
-      -webkit-flex: 1 0 auto;
-      -ms-flex: 1 0 auto;
-      flex: 1 0 auto;
-    }
-  } */
-  
