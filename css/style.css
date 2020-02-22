@@ -27,19 +27,19 @@ a:hover {
     justify-content: center;
     list-style: none;
 }
-.triangle {
+.trapeze {
       border-bottom: 50px solid #d7b56d;
       border-left: 41px solid transparent;
       border-right: 41px solid transparent;
       width: 186px;
       position: relative;
 }
-.triangle span {
+.trapeze span {
     font-size: 15px;
     font-weight: 700;
     line-height: 17px;
     position: absolute;
-    left: -18%;
+    left: -15%;
     margin-right: -22%;
     bottom: -41px;
 }
@@ -55,7 +55,7 @@ a:hover {
 }
 .tabs__caption li:nth-child(5) span {
     font-size: 14px;
-    left: -18%;
+    left: -16%;
 }
 .tabs__caption li:nth-child(1) span,
 .tabs__caption li:nth-child(6) span,
