@@ -8,11 +8,9 @@ body {
     font: 13px/1.4 Arial, sans-serif;
     background: #fffbdb;
 }
- 
 a:hover {
     text-decoration: none;
 }
-
 .container {
     max-width: 1820px;
     margin: 0 auto;
@@ -36,7 +34,6 @@ a:hover {
       width: 186px;
       position: relative;
 }
-
 .triangle span {
     font-size: 15px;
     font-weight: 700;
@@ -46,7 +43,6 @@ a:hover {
     margin-right: -22%;
     bottom: -41px;
 }
-
 .tabs__caption li:nth-child(4) span,
 .tabs__caption li:nth-child(5) span {
     margin-right: -20%;
@@ -68,26 +64,24 @@ a:hover {
     left: 9%;
     bottom: -35px;
 }
-
 .tabs__caption li {
     text-align: center;
     cursor: pointer;
-}
-  
+} 
 .tabs__caption .active {
     display: block;
     margin: 0 -20px;
     border-bottom: 27px solid #d7b56d;
     border-left: 22px solid transparent;
     border-right: 22px solid transparent;
-  } 
-
+    cursor: default;
+} 
 .tabs__content {
     display: none;
     border: 6px solid #dab870;
     border-radius: 119px;
     padding: 26px 45px;
-  }
+}
 .tabs__content.active {
     display: block;
-  }
+}
